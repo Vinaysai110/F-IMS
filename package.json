@@ -1,7 +1,6 @@
 {
   "name": "ims-site",
   "private": true,
-  "homepage": "https://Vinaysai110.github.io/F-IMS",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,8 +8,6 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.42.2",
